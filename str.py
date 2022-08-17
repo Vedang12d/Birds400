@@ -31,8 +31,7 @@ def main():
         # save_path='upload/'+img.name
         # with open(save_path,'wb') as f:
         #     f.write(img.getbuffer())
-        if st.button('Predict'):
-            result=processed_img(img)
-            st.success('Predicted bird is: '+result)
+        result=processed_img(img)
+        st.success('Predicted bird is: '+result)
 
 main()
