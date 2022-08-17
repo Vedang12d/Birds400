@@ -24,7 +24,7 @@ def processed_img(img_file):
 
 def main():
     st.title('Bird species clasfication')
-    img=st.file_uploader('Upload an image of a bird',type=['jpg','jpeg','png'])
+    img=st.file_uploader('Upload an image of a bird',type=['jpg','jpeg','png','webp'])
     if img:
         img=Image.open(img)
         st.image(img)
