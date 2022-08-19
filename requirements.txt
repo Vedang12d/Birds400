@@ -1,3 +1,6 @@
-tensorflow
+h5py
+typing-extensions
+wheel
 protobuf==3.19.4
+tensorflow
 pip==22.2.2
