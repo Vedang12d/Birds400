@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from PIL import Image, ImageOps
 
-@st.cache
+@st.cache(allow_output_mutation=True)
 def abc():
     return load_model('effmodel.h5')
 model=abc()
